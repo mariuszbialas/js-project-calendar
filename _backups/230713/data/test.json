@@ -1,0 +1,189 @@
+{
+    "2020": [
+      {
+        "name": "Karfreitag",
+        "month": 4,
+        "date": 15
+      },
+      {
+        "name": "Ostersonntag",
+        "month": 4,
+        "date": 17
+      },
+      {
+        "name": "Ostermontag",
+        "month": 4,
+        "date": 18
+      },
+      {
+        "name": "Christi Himmelfahrt",
+        "month": 5,
+        "date": 26
+      },
+      {
+        "name": "Pfingstsonntag",
+        "month": 6,
+        "date": 5
+      },
+      {
+        "name": "Pfingstmontag",
+        "month": 6,
+        "date": 6
+      },
+      {
+        "name": "Fronleichnam ",
+        "month": 6,
+        "date": 16
+      }
+    ],
+    "2021": [
+      {
+        "name": "Karfreitag",
+        "month": 4,
+        "date": 15
+      },
+      {
+        "name": "Ostersonntag",
+        "month": 4,
+        "date": 17
+      },
+      {
+        "name": "Ostermontag",
+        "month": 4,
+        "date": 18
+      },
+      {
+        "name": "Christi Himmelfahrt",
+        "month": 5,
+        "date": 26
+      },
+      {
+        "name": "Pfingstsonntag",
+        "month": 6,
+        "date": 5
+      },
+      {
+        "name": "Pfingstmontag",
+        "month": 6,
+        "date": 6
+      },
+      {
+        "name": "Fronleichnam ",
+        "month": 6,
+        "date": 16
+      }
+    ],
+    "2022": [
+      {
+        "name": "Karfreitag",
+        "month": 4,
+        "date": 15
+      },
+      {
+        "name": "Ostersonntag",
+        "month": 4,
+        "date": 17
+      },
+      {
+        "name": "Ostermontag",
+        "month": 4,
+        "date": 18
+      },
+      {
+        "name": "Christi Himmelfahrt",
+        "month": 5,
+        "date": 26
+      },
+      {
+        "name": "Pfingstsonntag",
+        "month": 6,
+        "date": 5
+      },
+      {
+        "name": "Pfingstmontag",
+        "month": 6,
+        "date": 6
+      },
+      {
+        "name": "Fronleichnam ",
+        "month": 6,
+        "date": 16
+      }
+    ],
+    "2023": [
+      {
+        "name": "Karfreitag",
+        "month": 4,
+        "date": 7
+      },
+      {
+        "name": "Ostersonntag",
+        "month": 4,
+        "date": 9
+      },
+      {
+        "name": "Ostermontag",
+        "month": 4,
+        "date": 10
+      },
+      {
+        "name": "Christi Himmelfahrt",
+        "month": 5,
+        "date": 18
+      },
+      {
+        "name": "Pfingstsonntag",
+        "month": 5,
+        "date": 28
+      },
+      {
+        "name": "Pfingstmontag",
+        "month": 5,
+        "date": 29
+      },
+      {
+        "name": "Fronleichnam ",
+        "month": 6,
+        "date": 8
+      }
+    ],
+    "2024": [
+      {
+        "name": "Karfreitag",
+        "month": 3,
+        "date": 29
+      },
+      {
+        "name": "Ostersonntag",
+        "month": 3,
+        "date": 31
+      },
+      {
+        "name": "Ostermontag",
+        "month": 4,
+        "date": 1
+      },
+      {
+        "name": "Christi Himmelfahrt",
+        "month": 5,
+        "date": 9
+      },
+      {
+        "name": "Pfingstsonntag",
+        "month": 5,
+        "date": 19
+      },
+      {
+        "name": "Pfingstmontag",
+        "month": 5,
+        "date": 20
+      },
+      {
+        "name": "Fronleichnam ",
+        "month": 5,
+        "date": 30
+      }
+    ],
+    "_id": "7f2088534cf89ba1d6dfa298230018c5",
+    "_rev": "2-fdd08656e63d0305ce94deded3775b2a"
+  }
