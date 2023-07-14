@@ -135,6 +135,17 @@ main {
   color: red;
   border: 1px solid red;
 }
+.celebration {
+  background-color: aqua;
+  border: 1px solid aqua;
+  color: green;
+  transition: .2s;
+}
+.celebration:hover {
+  background-color: aqua;
+  color: red;
+  border: 1px solid red;
+}
 
 /* ------------------------------- */
 

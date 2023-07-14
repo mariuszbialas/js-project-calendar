@@ -36,12 +36,6 @@ const months = {
         i,
         data.firstDayOfMonth
       );
-      // Alle Feiertage markieren
-      const holiday = months.checkDay(
-        dataMonth.holidays,
-        'holiday',
-        i
-      );
       // Alle Geburtstage markieren
       const birthday = months.checkDay(
         dataMonth.birthdays,
@@ -54,21 +48,44 @@ const months = {
         'other',
         i
       );
+      // Alle Feierlichkeiten markieren
+      const celebration = months.checkDay(
+        dataMonth.celebrations,
+        'celebration',
+        i
+      );
+      // Alle Veranstaltungen, die jedes Jahr anderes Datum haben, markieren
       const holidayYear = months.checkDay(
         dataYear,
         'holiday-year',
         i
       );
-
+      // Alle Feiertage markieren
+      const holiday = months.checkDay(
+        dataMonth.holidays,
+        'holiday',
+        i
+      );
+      
+      // Veranstaldugen Name in einem Objekt speichern
       dayInfo.holidays = holiday.eventName;
       dayInfo.birthdays = birthday.eventName;
       dayInfo.others = other.eventName;
+      dayInfo.celebrations = celebration.eventName;
       dayInfo.holidaysYear = holidayYear.eventName;
 
       // Erzaüge Tag HTML-Element
       const day = dom.create({
         parent: elements.calendarView,
-        classes: ['day', today, sunday, holiday.event, birthday.event, other.event, holidayYear.event],
+        classes: [
+          'day',
+          today,
+          sunday,
+          holiday.event,
+          birthday.event,
+          other.event,
+          celebration.event,
+          holidayYear.event],
         content: i,
         listeners: { click: () => days.showInfo(i, dayInfo)},
       });
