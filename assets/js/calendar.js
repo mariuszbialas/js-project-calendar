@@ -55,7 +55,7 @@ const calendar = {
 
       if(data.years[currentYear]) {
         const yearData = data.years[currentYear].filter(
-          (item) => item.month === 4
+          (item) => item.month === currentMonth + 1
         );
 
         months.render(
@@ -69,7 +69,7 @@ const calendar = {
             ...monthData,
           }
         );
-        
+
       } else {
         months.render(
           {
@@ -87,6 +87,8 @@ const calendar = {
 
   // Monat ändern und Kalendar neu erzaügen
   changeMonth(year, month, action) {
+    elements.dayInfo.innerHTML = ''
+
     if (action === -1) {
       month--;
     } else if (action === 1) {

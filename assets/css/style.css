@@ -66,10 +66,11 @@ main {
   padding: 10px;
   text-align: center;
   cursor: pointer;
+  transition: .2s;
 }
 
 .day:hover {
-  background-color: #f9f9f9;
+  background-color: #d5d5d5;
 }
 
 .day.hide {
@@ -88,28 +89,54 @@ main {
   color: wheat;
   border: 1px solid blue;
   font-weight: bold;
+  transition: .2s;
 }
 .today:hover {
-  background-color: wheat;
-  color: blue;
-  border: 1px solid blue;
-  font-weight: bold;
+  background-color: blue;
+  color: red;
+  border: 1px solid red;
 }
 
 .sunday {
   color: red;
 }
 
-.holiday {
+.holiday, .holiday-year {
   background-color: red;
   color: white;
+  border: 1px solid red;
+  transition: .2s;
+}
+.holiday:hover, .holiday-year:hover  {
+  background-color: red;
+  color: yellow;
+  border: 1px solid yellow;
 }
 
 .birthday {
   background-color: violet;
+  border: 1px solid violet;
+  color: blue;
+  transition: .2s;
+}
+.birthday:hover {
+  background-color: violet;
+  color: red;
+  border: 1px solid red;
+}
+.other {
+  background-color: burlywood;
+  border: 1px solid burlywood;
+  color: green;
+  transition: .2s;
+}
+.other:hover {
+  background-color: burlywood;
+  color: red;
+  border: 1px solid red;
 }
 
-
+/* ------------------------------- */
 
 .day-info {
   position: fixed;
@@ -120,12 +147,26 @@ main {
   margin-inline: auto;
   margin-top: 10px;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9cc;
   border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  transition: .2s;
+}
+
+.day-info .title {
+  background-color: lightblue;
+  width: 200px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.day-info button {
+  margin: 20px 0;
+  padding: 5px 40px;
+  color: red;
 }
 
 /* ------------------------------- */
